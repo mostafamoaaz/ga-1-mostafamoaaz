@@ -26,9 +26,9 @@ jobs:
         steps:
           - name: checkout
             uses: actions/checkout@v4
-            
+
           - name: script
             run: |
               ls -ltrah
-              chmod -x .github/workflows/script.sh
+              sudo chmod -x .github/workflows/script.sh
               .github/workflows/script.sh
