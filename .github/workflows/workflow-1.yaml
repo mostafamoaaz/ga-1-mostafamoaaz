@@ -26,6 +26,6 @@ jobs:
         steps:
           - name: script
             run: |
-              pwd
-              sudo chmod -x .github/workflows/script.sh
-              .github/workflows/script.sh
+              ls -ltrah
+              sudo chmod -x .github\workflows\script.sh
+              .github\workflows\script.sh
