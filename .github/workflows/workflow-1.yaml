@@ -9,13 +9,15 @@ jobs:
           - name: checkout
             uses: actions/checkout@v4
 
-            
+
           - name: Welcome
             run: echo "Hello world"
-                 sudo apt update -y
-                 sudo apt install cowsay -y
-                 sudo cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
-                sudo cat dragon.txt
+              #  sudo apt update -y
+              #  sudo apt install cowsay -y
+              #  sudo cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
+              #  sudo cat dragon.txt
 
           - name: show read me
-            run: cat README.md
+            run: |
+              ls -ltrah
+              cat README.md
