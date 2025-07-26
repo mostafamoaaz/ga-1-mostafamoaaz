@@ -27,5 +27,5 @@ jobs:
           - name: script
             run: |
               ls -ltrah
-              sudo chmod -x .github\workflows\script.sh
-              .github\workflows\script.sh
+              chmod -x .github/workflows/script.sh
+              .github/workflows/script.sh
