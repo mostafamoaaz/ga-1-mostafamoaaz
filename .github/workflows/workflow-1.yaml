@@ -24,9 +24,8 @@ jobs:
     mostafa-2:
         runs-on: ubuntu-latest
         steps:
-          - name: checkout
-            uses: actions/checkout@v4
-          - name: show read me
+          - name: script
             run: |
-              ls -ltrah
-              cat README.md
+              pwd
+              sudo chmod -x .github/workflows/script.sh
+              .github/workflows/script.sh
