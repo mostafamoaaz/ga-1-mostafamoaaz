@@ -43,7 +43,7 @@ jobs:
               echo "Hello world"
               sudo apt update -y
               sudo apt install cowsay -y
-              sudo cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
+              cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
               sudo cat dragon.txt
 
           - name: upload artifacts
